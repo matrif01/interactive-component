@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>interactive-rating</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="flex justify-center items-center bg-slate-950 h-screen">
+    <div class="bg-gray-900 p-8 flex flex-col rounded-lg">
+      <div class="mb-5">
+        <img
+          src="./Assets/icon-star.svg"
+          class="bg-gray-800 p-3 rounded-full"
+        />
+      </div>
+      <div class="mb-3">
+        <p class="text-white font-bold text-xl">How did we do?</p>
+      </div>
+      <div>
+        <p class="text-slate-300">
+          Please let us know how we did with your <br />support request. All
+          feedback is appreciated <br />
+          to help us improve our offering!
+        </p>
+      </div>
+      <div class="my-5 ">
+        <ul class="flex justify-center gap-3">
+          <li class="text-slate-300 bg-gray-800 px-5 py-3 rounded-full hover:text-white hover:bg-orange-600">1</li>
+          <li class="text-slate-300 bg-gray-800 px-5 py-3 rounded-full hover:text-white hover:bg-orange-600">2</li>
+          <li class="text-slate-300 bg-gray-800 px-5 py-3 rounded-full hover:text-white hover:bg-orange-600">3</li>
+          <li class="text-slate-300 bg-gray-800 px-5 py-3 rounded-full hover:text-white hover:bg-orange-600">4</li>
+          <li class="text-slate-300 bg-gray-800 px-5 py-3 rounded-full hover:text-white hover:bg-orange-600">5</li>
+        </ul>
+      </div>
+       <button class="bg-orange-600 rounded-lg py-1 text-white  hover:bg-white hover:text-orange-600">Submit</button>
+    </div>
+  </body>
+</html>
